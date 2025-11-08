@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --radius: 10px;
+}
+
+.container-section {
+  @apply max-w-7xl mx-auto px-4 sm:px-6 lg:px-8;
+}
+
+.btn-primary {
+  @apply inline-flex items-center justify-center rounded-md bg-primary text-white px-5 py-3 font-medium hover:bg-black/90 transition-colors;
+}
+
+.badge {
+  @apply inline-block rounded-full bg-accent/10 text-accent px-3 py-1 text-xs font-semibold;
+}
+
+.card {
+  @apply rounded-xl border border-gray-200 shadow-sm hover:shadow-md transition-shadow bg-white;
+}
